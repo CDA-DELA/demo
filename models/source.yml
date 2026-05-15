@@ -1,0 +1,7 @@
+version: 1
+sources:
+  - name: demo
+    database: DB_TEST
+    schema: SCHM_L_CRM_01
+    tables:
+      - name: CUSTOMER
