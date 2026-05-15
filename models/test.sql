@@ -1,4 +1,8 @@
-select 
-*
+with cte as (
+    select 
+    C_NAME
 from {{ source('demo', 'CUSTOMER') }}
-limit 10
+)
+select
+*
+from cte
